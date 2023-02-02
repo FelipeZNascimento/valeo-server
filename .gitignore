@@ -1,0 +1,11 @@
+
+node_modules/
+
+.env
+
+certs/
+
+dist/
+
+request_logs.txt
+logs/
