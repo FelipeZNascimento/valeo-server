@@ -5,7 +5,6 @@ export type TError = {
 
 const GENERAL = '00';
 const USER_RELATED = '10';
-const BETS_RELATED = '20';
 export const UNKNOWN_ERROR_CODE = 'XXX';
 
 const USER_ERRORS = {
@@ -47,21 +46,6 @@ const USER_ERRORS = {
   }
 };
 
-const BET_ERRORS = {
-  BAD_PARAMS: {
-    code: `${BETS_RELATED}1`,
-    message: 'Pedido inválido (mismatched params).'
-  },
-  NOT_ALLOWED: {
-    code: `${BETS_RELATED}2`,
-    message: 'Pedido não permitido.'
-  },
-  BET_UNKNOWN: {
-    code: `${BETS_RELATED}9`,
-    message: 'Erro desconhecido.'
-  }
-};
-
 export const ERROR_CODES = {
   MISSING_PARAMS: {
     code: `${GENERAL}1`,
@@ -80,5 +64,4 @@ export const ERROR_CODES = {
     message: 'Erro desconhecido.'
   },
   ...USER_ERRORS,
-  ...BET_ERRORS
 };
