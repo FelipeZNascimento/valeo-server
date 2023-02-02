@@ -48,7 +48,7 @@ exports.updateGuest = async (req: any, res: any) => {
           return guestInstance.success.returnApi();
         });
       } else {
-        guestInstance.error.setResult([ERROR_CODES.NOT_ALLOWED]);
+        guestInstance.error.setResult([ERROR_CODES.GENERAL_UNKNOWN]);
         return guestInstance.error.returnApi();
       }
     });
