@@ -41,14 +41,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sharpion/omega-cors.git"
+    "url": "git+https://github.com/Sharpion/valeo-server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sharpion/omega-cors/issues"
+    "url": "https://github.com/Sharpion/valeo-server/issues"
   },
-  "homepage": "https://github.com/Sharpion/omega-cors#readme",
+  "homepage": "https://github.com/Sharpion/valeo-server#readme",
   "description": ""
 }
