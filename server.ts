@@ -19,7 +19,8 @@ const allowedOrigins = [
   'http://localhost',
   'https://localhost:3000',
   'http://localhost:3000',
-  /\.omegafox\.me$/
+  /\.omegafox\.me$/,
+  /\.casamentovaleo\.com.br$/,
 ];
 
 const options: CorsOptions = {
